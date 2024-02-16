@@ -2,7 +2,7 @@
 
 return [
     'code' => 'it',
-    'default' => true,
+    'default' => false,
     'direction' => 'ltr',
     'locale' => [
         'LC_ALL' => 'it_IT'
@@ -11,5 +11,5 @@ return [
     'translations' => [
 
     ],
-    'url' => '/'
+    'url' => NULL
 ];
