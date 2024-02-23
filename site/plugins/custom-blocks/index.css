@@ -1,0 +1,12 @@
+/* .k-blocks:not([data-empty=true], [data-disabled=true]) {
+    background-color: transparent;
+}
+
+.k-draggable.k-blocks-list {
+    display: flex;
+    gap: 1.5px;
+} */
+
+/* .k-block-container:not(:last-of-type).k-block-container-type-menublock {
+    border-bottom: none;
+} */

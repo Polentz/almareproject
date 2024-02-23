@@ -1,0 +1,16 @@
+name: Cover
+icon: image
+fields:
+  cover:
+    label: Image
+    type: files
+    template: cover
+    uploads: cover
+    layout: cards
+    size: huge
+    multiple: false
+    image:
+      back: "#000"
+      icon: false
+      ratio: 6/3
+      cover: true

@@ -1,5 +1,89 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+tabs:
+  page:
+    label: Website pages
+    icon: angle-right
+    sections:
+      allpages:
+        label: Website pages
+        type: pages
+        image: false
+        # template:
+        #   - projects
+        #   - tools
+        #   - themes
+        #   - timeline
+        sortable: false
+  menu:
+    label: Menu
+    icon: angle-right
+    sections:
+      mainmenu:
+        type: fields
+        fields:
+          mixedMenu:
+            label: Main menu
+            type: structure
+            fields:
+              linkTitle:
+                type: text
+                label: Menu item title
+              link:
+                type: link
+                label: Link
+                options:
+                  - page
+                  - url   
+      dropdownmenu:
+        type: fields
+        fields:
+          blocks:
+            label: Dropdown Menu
+            type: blocks
+            fieldsets:
+              - menublock    
+      globalFiles:
+        type: fields
+        fields:
+          files:
+            type: files  
+  seo:
+    label: Website metadata
+    icon: angle-right
+    columns:
+      main:
+        width: 1/2
+        sections:
+          seocontent:
+            type: fields
+            fields:
+              description:
+                label: Description
+                type: textarea
+                buttons: false
+              keywords:
+                label: Keywords
+                type: tags         
+      image:
+        width: 1/2
+        sections:
+          image:
+            type: fields
+            fields:
+              ogimage:
+                label: OG Image
+                type: files
+                template: image
+                uploads: image
+                layout: cards
+                size: huge
+                multiple: false
+                image:
+                  back: "#000"
+                  icon: false
+                  ratio: 6/3
+                  cover: true
+
+
+

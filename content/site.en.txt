@@ -1,1 +1,80 @@
 Title: ALMARE
+
+----
+
+Mixedmenu:
+
+- 
+  linktitle: Life Chronicles of Dorothea Ïesj S.P.U.
+  link: page://PDhpE0OBSSUTQnjH
+- 
+  linktitle: The Listener
+  link: https://loremipsum.io/
+
+----
+
+Blocks: [{"content":{"mixeddropdownmenu":[{"linktitle":"Portfolio","link":"file://DQI9odKmeHS3OA8d"}]},"id":"8d6a246f-ca15-4876-8ceb-a30de85192ba","isHidden":false,"type":"menublock"},{"content":{"mixeddropdownmenu":[{"linktitle":"Facebook","link":"https://loremipsum.io/","linkobject":{"linktext":"Facebook","link":"https://loremipsum.io/","target":"true"}},{"linktitle":"Instagram","link":"https://loremipsum.io/","linkobject":{"linktext":"Instagram","link":"https://loremipsum.io/","target":"true"}}]},"id":"32a78c1b-2634-4cdf-8a33-69acc2446811","isHidden":false,"type":"menublock"},{"content":{"mixeddropdownmenu":[{"linktitle":"Newsletter","link":"https://loremipsum.io/","linkobject":""},{"linktitle":"Portofolio","link":"https://loremipsum.io/","linkobject":""}]},"id":"15b691db-7caa-46af-8524-a55bd3eedf57","isHidden":false,"type":"menublock"}]
+
+----
+
+Files: - file://DQI9odKmeHS3OA8d
+
+----
+
+Description: 
+
+----
+
+Keywords: 
+
+----
+
+Ogimage: 
+
+----
+
+Dropdownmenublocks: [{"content":{"dropdownmenulabel":"<p>Portfolio</p>"},"id":"8930b2ca-0117-4328-882e-93ff84cd1398","isHidden":false,"type":"menulabel"},{"content":{"dropdownmenulabel":"<p>Newsletter</p>"},"id":"a3f3deb4-c39d-40f0-bd79-de3ac75fc59c","isHidden":false,"type":"menulabel"}]
+
+----
+
+Mainmenu:
+
+- 
+  menuitem: '<p><a href="https://loremipsum.io/">The Listeners</a></p>'
+  menuitemlabel: The Listeners
+  menuitemurl: https://loremipsum.io/
+  menulabel: '<p>The Listener</p>'
+- 
+  menuitem: '<p><a href="/@/page/PDhpE0OBSSUTQnjH">Life Chronicles of Dorothea Ïesj S.P.U.</a></p>'
+  menuitemlabel: Life Chronicles of Dorothea Ïesj S.P.U.
+  menuitemurl: ""
+
+----
+
+Mainmenublocks:
+
+- 
+  menulabel: '<p>The Listeners</p>'
+- 
+  menulabel: '<p><a href="/@/page/PDhpE0OBSSUTQnjH">LIFE CHRONICLES OF DOROTHEA ÏESJ S.P.U.</a></p>'
+
+----
+
+Dropdownmenuublocks: 
+
+----
+
+Menulayout: 
+
+----
+
+Menu: [{"content":{"menu":[{"item":"<p>Portfolio</p>"},{"item":"<p>Newsletter</p>"}]},"id":"0a686a5c-7136-4a21-8cd3-be07fa61ba3c","isHidden":false,"type":"menu"}]
+
+----
+
+Mixeddropdownmenu:
+
+- 
+  linktitle: null
+  link: ""
+  _id: aa9b4345-1456-4eca-8998-203d197c1855

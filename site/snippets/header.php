@@ -37,3 +37,9 @@
     ]) ?>
 </head>
 <body>
+    <header>
+        <?= snippet('nav') ?>
+    </header>
+    <div class="logo">
+      <h1><img src="assets/almare-logo-02.png" width="100%" alt="ALMARE logo"></h1>
+    </div>

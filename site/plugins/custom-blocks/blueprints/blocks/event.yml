@@ -1,0 +1,36 @@
+name: Event
+icon: calendar
+fields:
+  date:
+    label: Date
+    type: writer
+    marks:
+      - bold
+      - italic
+      - underline
+      - link
+      - email
+      - clear
+    nodes: false
+  title:
+    label: Title
+    type: writer
+    marks:
+      - bold
+      - italic
+      - underline
+      - link
+      - email
+      - clear
+    nodes: false
+  info:
+    label: Text
+    type: writer
+    marks:
+      - bold
+      - italic
+      - underline
+      - link
+      - email
+      - clear
+    nodes: false

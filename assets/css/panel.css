@@ -1,0 +1,14 @@
+:root {
+    --rounded: 0rem;
+    --shadow: 0;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.k-block-type-line hr {
+    border-top: 1px solid #000;
+}

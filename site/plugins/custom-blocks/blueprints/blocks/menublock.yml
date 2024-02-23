@@ -1,0 +1,38 @@
+name: Menu block
+icon: false
+fields:
+  mixedDropdownMenu:
+    label: Dropdown Menu
+    type: structure
+    fields:
+      linkTitle:
+        type: text
+        label: Menu item title
+      link:
+        type: link
+        label: Link
+        options:
+          - page
+          - url
+          - file 
+          - email
+      # linkObject:
+      #   label: Menu item link
+      #   type: object
+      #   fields:
+      #     linkText:
+      #       type: text
+      #       label: Label
+      #     link:
+      #       label: Link
+      #       type: link
+      #       options:
+      #         - page
+      #         - anchor 
+      #         - url
+      #         - file 
+      #         - email
+      #         - custom  
+      #     target:
+      #       type: toggle
+      #       text: Open in new window? 
