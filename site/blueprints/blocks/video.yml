@@ -13,11 +13,10 @@ fields:
     template: video      
     multiple: false
     link: false
-    width: 1/1
     image:
       back: "#000"
       icon: false
-      rratio: 16/9
+      ratio: 16/9
       cover: true
   caption:
     label: field.blocks.video.caption

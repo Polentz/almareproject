@@ -14,6 +14,7 @@ sections:
           - text
           - cover
           - video
+          - gallery
           - event
           - line
         settings:

@@ -1,4 +1,4 @@
-title: Cover
+title: Card
 focus: false
 preview: false
 accept: 
@@ -16,3 +16,13 @@ fields:
       - email
       - clear
     nodes: false
+  text:
+    type: writer
+    marks:
+      - bold
+      - italic
+      - underline
+      - link
+      - email
+      - clear
+    nodes: false   

@@ -12,3 +12,13 @@ html {
 .k-block-type-line hr {
     border-top: 1px solid #000;
 }
+
+.k-cards-item .k-item-content span {
+    display: none;
+}
+
+.k-block-type-gallery ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .75rem;
+}

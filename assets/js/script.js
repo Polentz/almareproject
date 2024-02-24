@@ -79,6 +79,35 @@ const toggleMenu = (button, menu) => {
     })
 }
 
+const openGalleryItem = () => {
+    const items = document.querySelectorAll(".gallery-item");
+    items.forEach(item => {
+        const preview = item.querySelector(".item-preview");
+        const extended = item.querySelector(".item-content");
+        const closer = item.querySelector(".close-btn");
+        preview.addEventListener("click", () => {
+            item.style.gridColumn = "1 / 4";
+            item.style.display = "grid";
+            preview.gridColumn = "1 / 2";
+            extended.style.display = "flex";
+            closer.style.opacity = "1";
+            const itemPosition = extended.getBoundingClientRect().top;
+            const offsetPosition = itemPosition + window.scrollY - 176;
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth",
+            });
+        });
+        closer.addEventListener("click", () => {
+            item.style.gridColumn = "auto";
+            item.style.display = "block";
+            preview.style.gridColumn = "auto";
+            extended.style.display = "none";
+            closer.style.opacity = "0";
+        });
+    });
+};
+
 window.addEventListener("load", () => {
     history.scrollRestoration = "manual";
     documentHeight();
@@ -86,6 +115,7 @@ window.addEventListener("load", () => {
     // closeContent(closeBtn, slideContent);
     toggleMenu(menuBtn, dropdownMenu);
     // toggleMenu(mobileBtn, mobileMenu);
+    openGalleryItem();
 });
 
 window.addEventListener("resize", () => {

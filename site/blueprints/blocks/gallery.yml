@@ -1,0 +1,20 @@
+name: field.blocks.gallery.name
+icon: dashboard
+preview: gallery
+fields:
+  images:
+    label: field.blocks.gallery.images.label
+    type: files
+    query: model.images
+    multiple: true
+    layout: cards
+    empty: field.blocks.gallery.images.empty
+    uploads:
+      template: card
+    template: card
+    link: true
+    image:
+      back: "#000"
+      icon: false
+      ratio: 1/1
+      cover: true
