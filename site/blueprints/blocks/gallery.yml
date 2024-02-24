@@ -5,12 +5,11 @@ fields:
   images:
     label: field.blocks.gallery.images.label
     type: files
-    query: model.images
+    query: page.images.filterBy('template', 'card')
     multiple: true
     layout: cards
     empty: field.blocks.gallery.images.empty
-    uploads:
-      template: card
+    uploads: card
     template: card
     link: true
     image:

@@ -1,28 +1,10 @@
-/* .k-blocks:not([data-empty=true], [data-disabled=true]) {
-    background-color: transparent;
-}
-
-.k-draggable.k-blocks-list {
-    display: flex;
-    gap: 1.5px;
-} */
-
-/* .k-block-container:not(:last-of-type).k-block-container-type-menu {
-    border-bottom: none;
-} */
-
 .k-block-type-line hr {
     margin-block: 0rem;
     border: 0;
     border-top: 1px solid #000;
 }
 
-.k-block-type-cover {
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e7e7e7;
+.k-block-type-image {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
 }

@@ -1,0 +1,20 @@
+name: Cover Image
+icon: image
+fields:
+  image:
+    label: field.blocks.image.name
+    type: files
+    query: page.images.filterBy('template', 'cover')
+    template: cover
+    uploads: cover
+    multiple: false
+    image:
+      back: black
+  alt:
+    label: field.blocks.image.alt
+    type: text
+    icon: title
+  link:
+    label: field.blocks.image.link
+    type: text
+    icon: url

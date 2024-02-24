@@ -5,6 +5,7 @@ sections:
     type: fields
     fields:
       layout:
+        label: Page
         type: layout
         layouts:
           - "1/1"
@@ -12,34 +13,18 @@ sections:
           - "1/3, 1/3, 1/3"
         fieldsets:
           - text
-          - cover
+          - image
           - video
           - gallery
           - event
           - line
-        settings:
-          fields:
-            class:
-              label: Class
-              type: select
-              options:
-                - Agenda
-                - Text
-  # fields:
-  #   type: fields
-  #   fields:
-  #     blocks:
-  #       label: About
-  #       type: blocks
-
-
-  # sidebar:
-  #   width: 1/3
-  #   sections:
-  #     pages:
-  #       type: pages
-  #       template: default
-  #     files:
-  #       type: files          
+        # settings:
+        #   fields:
+        #     class:
+        #       label: Class
+        #       type: select
+        #       options:
+        #         - Agenda
+        #         - Text      
           
     

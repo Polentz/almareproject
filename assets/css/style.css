@@ -493,6 +493,11 @@ button:hover {
     width: 100%;
 }
 
+.video-block iframe {
+    width: 100%;
+    min-height: 75vh;
+}
+
 .gallery-block {
     padding: var(--m-p-large);
 }

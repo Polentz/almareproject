@@ -23,11 +23,6 @@ panel.plugin("almareproject/custom-blocks", {
         </div>
       `
     },
-    cover: {
-      template: `
-        <div>Cover Image</div> 
-      `
-    },
     // sectionblock: {
     //   template: `
     //     <div class="block">
