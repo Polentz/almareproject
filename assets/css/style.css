@@ -177,14 +177,18 @@ button:hover {
     border-bottom: solid 1px #ffffff00;
 }
 
-.nav {
+.header {
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.nav {
     padding: 0 var(--m-p-large);
     background: #1d1d1d80;
     backdrop-filter: blur(24px);
-    z-index: 9;
 }
 
 .menu {
@@ -227,6 +231,10 @@ button:hover {
 
 .dropdown-menu {
     display: none;
+}
+
+.dropdown-menu.visible {
+    display: flex;
 }
 
 .dropdown-menu-items {
@@ -476,6 +484,15 @@ button:hover {
     text-transform: none;
 }
 
+.video-block {
+    margin: var(--m-p-large);
+    border: var(--border);
+}
+
+.video-block video {
+    width: 100%;
+}
+
 .footer {
     height: auto;
     display: -webkit-box;
@@ -503,13 +520,17 @@ button:hover {
         --f-size-xsmall: .5rem;
     }
 
+    html {
+        font-size: 90%;
+    }
+
     .logo {
         width: 70vw;
     }
 
-    header {
+    /* header {
         padding: var(--m-p-large);
-    }
+    } */
 
     .contact {
         flex-direction: column;

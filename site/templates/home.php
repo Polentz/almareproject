@@ -2,7 +2,7 @@
 
 <main class="main">
   <?php foreach ($page->layout()->toLayouts() as $layout): ?>
-    <section class="grid-layout" id="<?= $layout->id() ?>">
+    <section class="grid-layout <?= $layout->attrs()->class() ?>">
       <?php foreach ($layout->columns() as $column): ?>
       <div class="grid-column span-<?= $column->span() ?>" style="--grid-span:<?= $column->span() ?>">
         <?= $column->blocks() ?>

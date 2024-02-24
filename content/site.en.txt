@@ -7,13 +7,15 @@ Mixedmenu:
 - 
   linktitle: Life Chronicles of Dorothea Ïesj S.P.U.
   link: page://PDhpE0OBSSUTQnjH
+  color: ""
 - 
   linktitle: The Listener
   link: https://loremipsum.io/
+  color: null
 
 ----
 
-Blocks: [{"content":{"mixeddropdownmenu":[{"linktitle":"Portfolio","link":"file://DQI9odKmeHS3OA8d"}]},"id":"8d6a246f-ca15-4876-8ceb-a30de85192ba","isHidden":false,"type":"menublock"},{"content":{"mixeddropdownmenu":[{"linktitle":"Facebook","link":"https://loremipsum.io/","linkobject":{"linktext":"Facebook","link":"https://loremipsum.io/","target":"true"}},{"linktitle":"Instagram","link":"https://loremipsum.io/","linkobject":{"linktext":"Instagram","link":"https://loremipsum.io/","target":"true"}}]},"id":"32a78c1b-2634-4cdf-8a33-69acc2446811","isHidden":false,"type":"menublock"},{"content":{"mixeddropdownmenu":[{"linktitle":"Newsletter","link":"https://loremipsum.io/","linkobject":""},{"linktitle":"Portofolio","link":"https://loremipsum.io/","linkobject":""}]},"id":"15b691db-7caa-46af-8524-a55bd3eedf57","isHidden":false,"type":"menublock"}]
+Blocks: [{"content":{"mixeddropdownmenu":[{"linktitle":"Portfolio","link":"file://DQI9odKmeHS3OA8d"}]},"id":"8d6a246f-ca15-4876-8ceb-a30de85192ba","isHidden":false,"type":"menu"},{"content":{"mixeddropdownmenu":[{"linktitle":"Facebook","link":"https://loremipsum.io/","linkobject":{"linktext":"Facebook","link":"https://loremipsum.io/","target":"true"}},{"linktitle":"Instagram","link":"https://loremipsum.io/","linkobject":{"linktext":"Instagram","link":"https://loremipsum.io/","target":"true"}}]},"id":"32a78c1b-2634-4cdf-8a33-69acc2446811","isHidden":false,"type":"menu"},{"content":{"mixeddropdownmenu":[{"linktitle":"Newsletter","link":"https://loremipsum.io/","linkobject":""},{"linktitle":"Portofolio","link":"https://loremipsum.io/","linkobject":""}]},"id":"15b691db-7caa-46af-8524-a55bd3eedf57","isHidden":false,"type":"menu"}]
 
 ----
 
@@ -33,7 +35,7 @@ Ogimage:
 
 ----
 
-Dropdownmenublocks: [{"content":{"dropdownmenulabel":"<p>Portfolio</p>"},"id":"8930b2ca-0117-4328-882e-93ff84cd1398","isHidden":false,"type":"menulabel"},{"content":{"dropdownmenulabel":"<p>Newsletter</p>"},"id":"a3f3deb4-c39d-40f0-bd79-de3ac75fc59c","isHidden":false,"type":"menulabel"}]
+Dropdownmenus: [{"content":{"dropdownmenulabel":"<p>Portfolio</p>"},"id":"8930b2ca-0117-4328-882e-93ff84cd1398","isHidden":false,"type":"menulabel"},{"content":{"dropdownmenulabel":"<p>Newsletter</p>"},"id":"a3f3deb4-c39d-40f0-bd79-de3ac75fc59c","isHidden":false,"type":"menulabel"}]
 
 ----
 
@@ -51,7 +53,7 @@ Mainmenu:
 
 ----
 
-Mainmenublocks:
+Mainmenus:
 
 - 
   menulabel: '<p>The Listeners</p>'

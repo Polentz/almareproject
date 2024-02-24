@@ -1,6 +1,6 @@
 panel.plugin("almareproject/custom-blocks", {
   blocks: {
-    menublock: {
+    menu: {
       template: `
         <div class="menu-block">
           <p>Column</p>
@@ -25,18 +25,7 @@ panel.plugin("almareproject/custom-blocks", {
     },
     cover: {
       template: `
-        <k-block-figure
-          :is-empty="!src"
-          empty-icon="image"
-          @open="open"
-          @update="update"
-        >
-          <template v-if="src">
-            <k-image-frame
-              :src="src"
-            />
-          </template>
-        </k-block-figure>
+        <div>Cover Image</div> 
       `
     },
     // sectionblock: {

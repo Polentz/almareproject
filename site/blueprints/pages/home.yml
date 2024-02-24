@@ -13,8 +13,17 @@ sections:
         fieldsets:
           - text
           - cover
+          - video
           - event
           - line
+        settings:
+          fields:
+            class:
+              label: Class
+              type: select
+              options:
+                - Agenda
+                - Text
   # fields:
   #   type: fields
   #   fields:

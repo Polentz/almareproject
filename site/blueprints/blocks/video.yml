@@ -1,0 +1,25 @@
+name: field.blocks.video.name
+icon: video
+preview: video
+fields:
+  url:
+    label: Video Url
+    type: url
+    placeholder: field.blocks.video.url.placeholder
+  video:
+    type: files
+    label: Video File
+    uploads: video
+    template: video      
+    multiple: false
+    link: false
+    width: 1/1
+    image:
+      back: "#000"
+      icon: false
+      rratio: 16/9
+      cover: true
+  caption:
+    label: field.blocks.video.caption
+    type: writer
+    inline: true

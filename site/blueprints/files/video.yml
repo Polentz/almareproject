@@ -1,0 +1,6 @@
+title: Video
+focus: false
+preview: false
+accept: 
+  extension: mp4, ogg
+  type: video

@@ -7,7 +7,7 @@ fields:
     fields:
       linkTitle:
         type: text
-        label: Menu item title
+        label: Label
       link:
         type: link
         label: Link

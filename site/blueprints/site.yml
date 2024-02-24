@@ -28,13 +28,16 @@ tabs:
             fields:
               linkTitle:
                 type: text
-                label: Menu item title
+                label: Label
               link:
                 type: link
                 label: Link
                 options:
                   - page
-                  - url   
+                  - url  
+              color:
+                type: color
+                alpha: true 
       dropdownmenu:
         type: fields
         fields:
@@ -42,7 +45,7 @@ tabs:
             label: Dropdown Menu
             type: blocks
             fieldsets:
-              - menublock    
+              - menu    
       globalFiles:
         type: fields
         fields:

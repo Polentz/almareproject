@@ -1,4 +1,5 @@
 <div class="cover-image">
     <?php $image = $block->cover()->toFile() ?>
-    <img src="<?= $image->url() ?>">
+    <?php $src = $image->url(); ?>
+    <img src="<?= $src ?>">
 </div>

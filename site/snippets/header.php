@@ -37,7 +37,7 @@
     ]) ?>
 </head>
 <body>
-    <header>
+    <header class="header">
         <?= snippet('nav') ?>
     </header>
     <div class="logo">

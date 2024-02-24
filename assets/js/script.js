@@ -9,6 +9,8 @@ const closeBtn = document.querySelector(".close-btn");
 const main = document.querySelector(".main");
 const mainContent = document.querySelector(".about-content");
 const body = document.querySelector("body");
+const menuBtn = document.querySelector(".menu-opener");
+const dropdownMenu = document.querySelector(".dropdown-menu");
 const mobileBtn = document.querySelector(".mobile-btn");
 const mobileBtnUi = document.querySelector(".mobile-btn svg");
 const mobileMenu = document.querySelectorAll(".contact-block");
@@ -67,19 +69,23 @@ const closeContent = (close, content) => {
 
 const toggleMenu = (button, menu) => {
     button.addEventListener("click", () => {
-        mobileBtnUi.classList.toggle("rotate");
-        menu.forEach(element => {
-            element.classList.toggle("visible");
-        });
+        if (mobileBtnUi) {
+            mobileBtnUi.classList.toggle("rotate");
+        };
+        // menu.forEach(element => {
+        //     element.classList.toggle("visible");
+        // });
+        menu.classList.toggle("visible");
     })
 }
 
 window.addEventListener("load", () => {
     history.scrollRestoration = "manual";
     documentHeight();
-    openContent(slideBtn, slideContent);
-    closeContent(closeBtn, slideContent);
-    toggleMenu(mobileBtn, mobileMenu);
+    // openContent(slideBtn, slideContent);
+    // closeContent(closeBtn, slideContent);
+    toggleMenu(menuBtn, dropdownMenu);
+    // toggleMenu(mobileBtn, mobileMenu);
 });
 
 window.addEventListener("resize", () => {

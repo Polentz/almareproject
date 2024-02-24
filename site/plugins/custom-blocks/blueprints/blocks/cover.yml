@@ -6,11 +6,10 @@ fields:
     type: files
     template: cover
     uploads: cover
-    layout: cards
-    size: huge
     multiple: false
+    link: false
     image:
       back: "#000"
       icon: false
-      ratio: 6/3
+      ratio: 16/9
       cover: true
