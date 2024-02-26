@@ -1,5 +1,5 @@
 <div class="agenda-block">
     <?= $block->date() ?>
-    <div class="event-tile"><?= $block->title()->kt() ?></div>
+    <div class="--large-text"><?= $block->title()->kt() ?></div>
     <?= $block->info()->kt() ?>
 </div>

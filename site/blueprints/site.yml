@@ -3,21 +3,26 @@ title: Site
 tabs:
   page:
     label: Website pages
-    icon: angle-right
+    icon: page
     sections:
-      allpages:
-        label: Website pages
+      homepage:
+        label: Homepage
         type: pages
         image: false
-        # template:
-        #   - projects
-        #   - tools
-        #   - themes
-        #   - timeline
+        template:
+          - home
+        sortable: false
+        max: 1
+      allpages:
+        label: Pages
+        type: pages
+        image: false
+        template:
+          - page
         sortable: false
   menu:
     label: Menu
-    icon: angle-right
+    icon: menu
     sections:
       mainmenu:
         type: fields
@@ -44,16 +49,50 @@ tabs:
           blocks:
             label: Dropdown Menu
             type: blocks
+            pretty: true
             fieldsets:
               - menu    
       globalFiles:
         type: fields
         fields:
           files:
-            type: files  
+            type: files    
+  slider:
+    label: Text and Press
+    icon: grid-right
+    columns:
+      main:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              sliderBlocks:
+                label: Items
+                type: blocks
+                pretty: true
+                fieldsets:
+                  - text
+                  - slider                    
+      sidebar:
+        width: 1/3
+        sections:
+          files:
+            type: fields
+            fields:
+              sliderFiles:
+                label: Files
+                type: files
+                multiple: true
+                link: false
+                image:
+                  back: "#000"
+                  icon: false
+                  ratio: 6/3
+                  cover: true
   seo:
     label: Website metadata
-    icon: angle-right
+    icon: search
     columns:
       main:
         width: 1/2

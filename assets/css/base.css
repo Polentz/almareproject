@@ -186,3 +186,54 @@ button {
     border: none;
     border-radius: 0;
 }
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--pr-color);
+    border-right: 9px solid var(--bg-color);
+}
+
+h1::-moz-selection,
+h2::-moz-selection,
+p::-moz-selection,
+em::-moz-selection,
+strong::-moz-selection,
+i::-moz-selection,
+br::-moz-selection,
+div::-moz-selection,
+img::-moz-selection {
+    color: var(--pr-color);
+    background-color: var(--sc-color);
+}
+
+h1::selection,
+h2::selection,
+p::selection,
+em::selection,
+strong::selection,
+i::selection,
+br::selection,
+div::selection,
+img::selection {
+    color: var(--pr-color);
+    background-color: var(--sc-color);
+}
+
+a::-moz-selection,
+span::-moz-selection {
+    color: var(--txt-color);
+    background-color: var(--sc-color);
+}
+
+a::selection,
+span::selection {
+    color: var(--txt-color);
+    background-color: var(--sc-color);
+}

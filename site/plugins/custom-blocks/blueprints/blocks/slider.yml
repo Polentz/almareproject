@@ -1,0 +1,15 @@
+name: Text and Press
+icon: bolt
+fields:
+  heading:
+    type: text
+  copy:
+    type: writer
+    marks:
+      - bold
+      - italic
+      - underline
+      - link
+      - email
+      - clear
+    nodes: false

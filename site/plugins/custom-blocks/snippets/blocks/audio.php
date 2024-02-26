@@ -20,9 +20,9 @@
         </div>
         <div class="audio-player-marquee">
             <div class="marquee-wrapper" aria-hidden="true">
-                <span class="marquee-part"><?= $block->title() ?></span>
-                <span class="marquee-part"><?= $block->title() ?></span>
-                <span class="marquee-part"><?= $block->title() ?></span>
+                <span class="marquee-part --large-text"><?= $block->title() ?></span>
+                <span class="marquee-part --large-text"><?= $block->title() ?></span>
+                <span class="marquee-part --large-text"><?= $block->title() ?></span>
             </div>
         </div>
         <?php if ($audio = $block->audio()->toFile()) : ?>

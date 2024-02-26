@@ -2,7 +2,13 @@ name: field.blocks.text.name
 icon: text
 wysiwyg: true
 preview: text
-fields:
+fields: 
+  styleOptions:
+    label: Large text?
+    type: toggle
+    text: 
+      - "no"
+      - "yes"
   text:
     type: writer
     marks:

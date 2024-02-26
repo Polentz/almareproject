@@ -23,6 +23,33 @@ panel.plugin("almareproject/custom-blocks", {
         </div>
       `
     },
+    slider: {
+      template: `
+        <div class="block">
+          <div v-if="content.heading" class="block-heading">
+              <h2>
+                <k-writer
+                    v-bind="field('heading')"
+                    :inline="true"
+                    :marks="false"
+                    :nodes="false"
+                    :value="content.heading"
+                    @input="update({ heading: $event })">
+                </k-writer>
+              </h2>
+          </div>
+          <div v-if="content.copy" class="block-text">
+              <div class="text">
+                <k-writer
+                  v-bind="field('copy')"
+                  :value="content.copy"
+                  @input="update({ copy: $event })">
+                </k-writer>
+              </div>
+          </div>
+        </div>
+      `
+    },
     audio: {
       template: `
         <div class="input-wrapper">

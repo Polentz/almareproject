@@ -16,23 +16,6 @@ fields:
           - url
           - file 
           - email
-      # linkObject:
-      #   label: Menu item link
-      #   type: object
-      #   fields:
-      #     linkText:
-      #       type: text
-      #       label: Label
-      #     link:
-      #       label: Link
-      #       type: link
-      #       options:
-      #         - page
-      #         - anchor 
-      #         - url
-      #         - file 
-      #         - email
-      #         - custom  
-      #     target:
-      #       type: toggle
-      #       text: Open in new window? 
+      # target:
+      #   type: toggle
+      #   text: Open in new window? 
