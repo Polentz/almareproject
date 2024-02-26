@@ -1,6 +1,5 @@
     <footer class="footer">
         <p>© <?= $site->footer() ?> ALMARE</p>
-        <!-- 2022 ALMARE -->
         <p>Design &amp; Code Giulia Polenta</p>
     </footer>
     

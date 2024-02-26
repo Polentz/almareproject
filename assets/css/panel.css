@@ -18,7 +18,9 @@ html {
 }
 
 .k-block-type-gallery ul {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr .75rem 1fr .75rem 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: .75rem;
 }
@@ -27,5 +29,10 @@ html {
     max-width: unset;
     max-height: unset;
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
+}
+
+.k-layout-selector-options {
+    grid-template-columns: repeat(2, 1fr);
 }

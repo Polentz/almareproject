@@ -19,7 +19,16 @@ tabs:
         image: false
         template:
           - page
-        sortable: false
+        sortable: true
+      footer:
+        type: fields
+        fields:
+          footer:
+            width: 1/4
+            type: text
+            placeholder: Year
+            before: "©"
+            after: "ALMARE"
   menu:
     label: Menu
     icon: menu

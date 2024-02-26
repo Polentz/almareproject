@@ -309,7 +309,6 @@ window.addEventListener("load", () => {
     toggleMenu(menuBtn, dropdownMenu, menuItems);
     openContent(slideBtn, slideContent);
     closeContent(closeBtn, slideContent);
-    // toggleMenu(mobileBtn, mobileMenu);
     openGalleryItem();
     audioPlayer();
 });

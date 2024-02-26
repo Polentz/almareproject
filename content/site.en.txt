@@ -2,11 +2,15 @@ Title: ALMARE
 
 ----
 
+Footer: 2024
+
+----
+
 Mixedmenu:
 
 - 
   linktitle: Life Chronicles of Dorothea Ïesj S.P.U.
-  link: ""
+  link: page://DGjAuBMgsrtEsuEE
   color: '#4ed785'
 - 
   linktitle: The Listener
@@ -15,7 +19,69 @@ Mixedmenu:
 
 ----
 
-Blocks: [{"content":{"mixeddropdownmenu":[{"linktitle":"Portfolio","link":"file://DQI9odKmeHS3OA8d"}]},"id":"8d6a246f-ca15-4876-8ceb-a30de85192ba","isHidden":false,"type":"menu"},{"content":{"mixeddropdownmenu":[{"linktitle":"Facebook","link":"https://loremipsum.io/","linkobject":{"linktext":"Facebook","link":"https://loremipsum.io/","target":"true"}},{"linktitle":"Instagram","link":"https://loremipsum.io/","linkobject":{"linktext":"Instagram","link":"https://loremipsum.io/","target":"true"}}]},"id":"32a78c1b-2634-4cdf-8a33-69acc2446811","isHidden":false,"type":"menu"},{"content":{"mixeddropdownmenu":[{"linktitle":"Newsletter","link":"https://loremipsum.io/","linkobject":""},{"linktitle":"Portofolio","link":"https://loremipsum.io/","linkobject":""}]},"id":"15b691db-7caa-46af-8524-a55bd3eedf57","isHidden":false,"type":"menu"}]
+Blocks:
+
+[
+    {
+        "content": {
+            "mixeddropdownmenu": [
+                {
+                    "linktitle": "Portfolio",
+                    "link": "file://DQI9odKmeHS3OA8d"
+                }
+            ]
+        },
+        "id": "8d6a246f-ca15-4876-8ceb-a30de85192ba",
+        "isHidden": false,
+        "type": "menu"
+    },
+    {
+        "content": {
+            "mixeddropdownmenu": [
+                {
+                    "linktitle": "Facebook",
+                    "link": "https://loremipsum.io/",
+                    "linkobject": {
+                        "linktext": "Facebook",
+                        "link": "https://loremipsum.io/",
+                        "target": "true"
+                    }
+                },
+                {
+                    "linktitle": "Instagram",
+                    "link": "https://loremipsum.io/",
+                    "linkobject": {
+                        "linktext": "Instagram",
+                        "link": "https://loremipsum.io/",
+                        "target": "true"
+                    }
+                }
+            ]
+        },
+        "id": "32a78c1b-2634-4cdf-8a33-69acc2446811",
+        "isHidden": false,
+        "type": "menu"
+    },
+    {
+        "content": {
+            "mixeddropdownmenu": [
+                {
+                    "linktitle": "Newsletter",
+                    "link": "https://loremipsum.io/",
+                    "linkobject": ""
+                },
+                {
+                    "linktitle": "Portofolio",
+                    "link": "https://loremipsum.io/",
+                    "linkobject": ""
+                }
+            ]
+        },
+        "id": "15b691db-7caa-46af-8524-a55bd3eedf57",
+        "isHidden": false,
+        "type": "menu"
+    }
+]
 
 ----
 
@@ -23,7 +89,91 @@ Files: - file://DQI9odKmeHS3OA8d
 
 ----
 
-Sliderblocks: [{"content":{"heading":"Interview","copy":""},"id":"63425193-d34e-450f-b64a-f88448b4c7a5","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.labellerevue.org/en/thematic-dossiers/universal-zombie-nation-lbr-11/entretien-almare\" target=\"_blank\">Auditory Necromancy</a></p><p>LA BELLE REVUE</p><p>[EN/FR]</p>"},"id":"81fa7f2a-c8a8-4171-a5ed-56bb1c2f0c5e","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.domusweb.it/it/arte/gallery/2021/02/26/tra-archeoacustica-e-distopia-un-racconto-sonoro-come-progetto-artistico.html\" target=\"_blank\">Archaeoacoustics meets dystopia: a sound story as a work of art</a></p><p>DOMUS MAGAZINE</p><p>[IT/EN]</p>"},"id":"c082e128-6a66-4420-bd76-3c461fbdc873","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.youtube.com/watch?v=ybdhXAqMagI&amp;frags=pl%2Cwn\" target=\"_blank\">Q-rated</a></p><p>[IT]</p>"},"id":"25a51b0e-4edd-48a3-b545-973b803fabed","isHidden":false,"type":"slider"},{"content":{"heading":"Text","copy":""},"id":"089a9474-54e8-49e7-883a-e67b9416838d","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"},"id":"0d415fcf-fdf6-448f-9361-b187aab3b02e","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"},"id":"547f2e92-6b83-413d-83c0-4d77227bd3ff","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"},"id":"b2f400b9-4b94-43fe-8aad-3b453a659076","isHidden":false,"type":"slider"},{"content":{"heading":"","copy":"<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"},"id":"3fb146a8-22de-4ed6-a99d-71228acd7eb3","isHidden":false,"type":"slider"}]
+Sliderblocks:
+
+[
+    {
+        "content": {
+            "heading": "Interview",
+            "copy": ""
+        },
+        "id": "63425193-d34e-450f-b64a-f88448b4c7a5",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.labellerevue.org/en/thematic-dossiers/universal-zombie-nation-lbr-11/entretien-almare\" target=\"_blank\">Auditory Necromancy</a></p><p>LA BELLE REVUE</p><p>[EN/FR]</p>"
+        },
+        "id": "81fa7f2a-c8a8-4171-a5ed-56bb1c2f0c5e",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.domusweb.it/it/arte/gallery/2021/02/26/tra-archeoacustica-e-distopia-un-racconto-sonoro-come-progetto-artistico.html\" target=\"_blank\">Archaeoacoustics meets dystopia: a sound story as a work of art</a></p><p>DOMUS MAGAZINE</p><p>[IT/EN]</p>"
+        },
+        "id": "c082e128-6a66-4420-bd76-3c461fbdc873",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.youtube.com/watch?v=ybdhXAqMagI&amp;frags=pl%2Cwn\" target=\"_blank\">Q-rated</a></p><p>[IT]</p>"
+        },
+        "id": "25a51b0e-4edd-48a3-b545-973b803fabed",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "Text",
+            "copy": ""
+        },
+        "id": "089a9474-54e8-49e7-883a-e67b9416838d",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+        },
+        "id": "0d415fcf-fdf6-448f-9361-b187aab3b02e",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+        },
+        "id": "547f2e92-6b83-413d-83c0-4d77227bd3ff",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+        },
+        "id": "b2f400b9-4b94-43fe-8aad-3b453a659076",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+        },
+        "id": "3fb146a8-22de-4ed6-a99d-71228acd7eb3",
+        "isHidden": false,
+        "type": "slider"
+    }
+]
 
 ----
 

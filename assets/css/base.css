@@ -213,6 +213,19 @@ img::-moz-selection {
     background-color: var(--sc-color);
 }
 
+h1::-moz-selection,
+h2::-moz-selection,
+p::-moz-selection,
+em::-moz-selection,
+strong::-moz-selection,
+i::-moz-selection,
+br::-moz-selection,
+div::-moz-selection,
+img::-moz-selection {
+    color: var(--pr-color);
+    background-color: var(--sc-color);
+}
+
 h1::selection,
 h2::selection,
 p::selection,
@@ -223,6 +236,12 @@ br::selection,
 div::selection,
 img::selection {
     color: var(--pr-color);
+    background-color: var(--sc-color);
+}
+
+a::-moz-selection,
+span::-moz-selection {
+    color: var(--txt-color);
     background-color: var(--sc-color);
 }
 

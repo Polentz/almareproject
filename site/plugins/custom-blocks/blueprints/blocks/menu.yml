@@ -16,6 +16,3 @@ fields:
           - url
           - file 
           - email
-      # target:
-      #   type: toggle
-      #   text: Open in new window? 
