@@ -8,3 +8,7 @@
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
 }
+
+.input-wrapper .k-input.input-title {
+    min-width: -webkit-fill-available;
+}

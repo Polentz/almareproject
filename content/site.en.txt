@@ -6,12 +6,12 @@ Mixedmenu:
 
 - 
   linktitle: Life Chronicles of Dorothea Ïesj S.P.U.
-  link: page://PDhpE0OBSSUTQnjH
-  color: ""
+  link: ""
+  color: '#4ed785'
 - 
   linktitle: The Listener
   link: https://loremipsum.io/
-  color: null
+  color: '#ff572a'
 
 ----
 

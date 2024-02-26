@@ -1,0 +1,19 @@
+name: Audio
+icon: audio
+fields:
+  title:
+    label: Audio title
+    type: text
+  audio:
+    label: Audio file
+    type: files
+    query: page.files.filterBy('template', 'audio')
+    uploads: audio
+    template: audio      
+    multiple: false
+    link: false
+    image:
+      back: "#000"
+      icon: false
+      ratio: 16/9
+      cover: true

@@ -5,7 +5,7 @@
             <?php $menuItems = $site->mixedMenu()->toStructure(); ?>
             <?php if ($menuItems->isNotEmpty()) : ?>
                 <?php foreach ($menuItems as $menuItem) : ?>
-                <li class="menu-item<?= ($p = $menuItem->link()->toPage()) && $p->isOpen() ? ' --current' : '' ?>"><a href="<?= $menuItem->link()->toUrl() ?>"><?= $menuItem->linkTitle()->or($menuItem->link()->html()) ?></a></li>
+                <li class="menu-item<?= ($p = $menuItem->link()->toPage()) && $p->isOpen() ? ' --current' : '' ?>" style="--color: <?= $menuItem->color() ?>;"><a href="<?= $menuItem->link()->toUrl() ?>"><?= $menuItem->linkTitle()->or($menuItem->link()->html()) ?></a></li>
                 <?php endforeach ?>
             <?php endif ?>
         </ul>

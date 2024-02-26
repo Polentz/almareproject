@@ -15,6 +15,7 @@ sections:
           - text
           - image
           - video
+          - audio
           - gallery
           - event
           - line

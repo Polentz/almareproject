@@ -10,41 +10,6 @@
       <?php endforeach ?>
     </section>
   <?php endforeach ?>
-
-    <!-- <section id="agenda" class="agenda-content">
-      <div id="agenda-wrapper" class="agenda-wrapper">
-        <div class="agenda-block">
-          <p>06.05.2022, 18:00</p>
-          <h2><a href="https://fsrr.org/eventi-fsrr/page/2/">Transtopia. Luogo dell&apos;oltre</a></h2>
-          <p>Listening session by Vincenzo Grasso in collaboration with ALMARE, Fondazione Sandretto Re Rebaudengo (IT)
-          </p>
-        </div>
-
-        <div class="agenda-block">
-          <p>FORTHCOMING </p>
-          <h2>PORPORA MARCASCIANO</h2>
-          <p>Sound installation for Porpora Marcasciano solo show curated by Michele
-            Bertolino, Mambo, Bologna (IT)</p>
-        </div>
-
-        <div class="agenda-block">
-          <p>16-17.11.2022</p>
-          <h2>SOUND QUESTS 2022</h2>
-          <p>Curated by ALMARE - Live Concert by Antwood + Dj set by La Niña Jacarandá
-            and VIBRISSE, Le Roi, Turin (IT);  performances by Eleni Ikoniadou and Vinit Agarwal, Fondazione Sandretto
-            Re Rebaudengo, Turin (IT)</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="cover-image" class="cover-image">
-      <div id="image" class="image">
-        <img src="upload/SQ2022_evento fb.png">
-      </div>
-      <div id="caption" class="caption">
-        <p><em>SOUND QUESTS</em> is a yearly event dedicated to technology and storytelling curated by ALMARE</p>
-      </div>
-    </section> -->
 </main>
 
 <!-- <section class="slide-content">
