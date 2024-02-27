@@ -26,6 +26,20 @@ tabs:
       sidebar:
         width: 1/3
         sections:
+          logo:
+            type: fields
+            fields:
+              logo:
+                type: files
+                link: false
+                template: image
+                uploads: image
+                multiple: false
+                image:
+                  back: "#000"
+                  icon: false
+                  ratio: 6/3
+                  cover: true
           footer:
             type: fields
             fields:
@@ -135,6 +149,7 @@ tabs:
               ogimage:
                 label: OG Image
                 type: files
+                link: false
                 template: image
                 uploads: image
                 layout: cards

@@ -1,4 +1,4 @@
-title: Default Page
+title: Page
 
 sections:
   layouts:
@@ -17,6 +17,6 @@ sections:
           - audio
           - gallery
           - event
-          - line  
+          - line    
           
     

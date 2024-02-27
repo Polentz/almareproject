@@ -2,6 +2,10 @@ Title: ALMARE
 
 ----
 
+Logo: - file://uZB5OWB01Gvm4IjY
+
+----
+
 Footer: 2024
 
 ----
@@ -12,14 +16,17 @@ Mixedmenu:
   linktitle: About Almare
   link: page://PDhpE0OBSSUTQnjH
   color: '#ffffff'
+  target: 'false'
 - 
   linktitle: Life Chronicles of Dorothea Ïesj S.P.U.
   link: page://DGjAuBMgsrtEsuEE
   color: '#4ed785'
+  target: 'false'
 - 
   linktitle: The Listener
   link: https://www.thelisteners.it/
   color: '#ff572a'
+  target: 'true'
 
 ----
 
@@ -67,7 +74,7 @@ Blocks:
                 },
                 {
                     "linktitle": "Portofolio",
-                    "link": "file://DQI9odKmeHS3OA8d",
+                    "link": "file://STaFOfCiZ4FBT0yF",
                     "linkobject": ""
                 }
             ]
@@ -80,7 +87,7 @@ Blocks:
 
 ----
 
-Files: - file://DQI9odKmeHS3OA8d
+Files: - file://STaFOfCiZ4FBT0yF
 
 ----
 
@@ -89,7 +96,7 @@ Sliderblocks:
 [
     {
         "content": {
-            "heading": "Interview",
+            "heading": "INTERVIEWS",
             "copy": ""
         },
         "id": "63425193-d34e-450f-b64a-f88448b4c7a5",
@@ -125,7 +132,25 @@ Sliderblocks:
     },
     {
         "content": {
-            "heading": "Text",
+            "heading": "",
+            "copy": "<p><a href=\"https://formeuniche.org/intervista-collettivo-almare/\" target=\"_blank\">FormeUniche</a></p><p>[IT]</p>"
+        },
+        "id": "de7b6e30-00b2-4f8d-9b98-df7868947912",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"http://atpdiary.com/intervista-con-almare/\" target=\"_blank\">ATP Diary</a></p><p>[IT]</p>"
+        },
+        "id": "f0d02fc1-dd88-4233-a79e-b05a5ab66add",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "TEXTS",
             "copy": ""
         },
         "id": "089a9474-54e8-49e7-883a-e67b9416838d",
@@ -135,7 +160,7 @@ Sliderblocks:
     {
         "content": {
             "heading": "",
-            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+            "copy": "<p><a href=\"/@/file/YxLU3pD7dwNZDTUN\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
         },
         "id": "0d415fcf-fdf6-448f-9361-b187aab3b02e",
         "isHidden": false,
@@ -144,16 +169,16 @@ Sliderblocks:
     {
         "content": {
             "heading": "",
-            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+            "copy": "<p><a href=\"https://www.wavesbetweenus.com/wp-content/uploads/2020/11/All-Signs-Point-to-Rome-Diane-%E2%80%94-ENG.pdf\" target=\"_blank\">All Signs Point to Rome, Diane</a></p><p>FONDAZIONE SANDRETTO RE REBAUDENGO</p><p>PDF [EN]</p>"
         },
         "id": "547f2e92-6b83-413d-83c0-4d77227bd3ff",
-        "isHidden": false,
+        "isHidden": true,
         "type": "slider"
     },
     {
         "content": {
             "heading": "",
-            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+            "copy": "<p><a href=\"https://www.neroeditions.com/a-brief-history-of-invisibility/\" target=\"_blank\">A Brief History of Invisibility</a></p><p>NERO</p><p>[EN]</p>"
         },
         "id": "b2f400b9-4b94-43fe-8aad-3b453a659076",
         "isHidden": false,
@@ -162,18 +187,45 @@ Sliderblocks:
     {
         "content": {
             "heading": "",
-            "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
+            "copy": "<p><a href=\"https://static1.squarespace.com/static/5718ef4d2b8ddedcfcfd96ac/t/5dfcfd9ea34172604ace0c69/1576861092595/GetRidofYourself-SummerShow-2019-FondazioneBaruchello.pdf\" target=\"_blank\">Get Rid Of Yourself, Ancora Ancora Ancora</a></p><p>PDF [IT/EN]</p>"
         },
         "id": "3fb146a8-22de-4ed6-a99d-71228acd7eb3",
+        "isHidden": true,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"https://www.domusweb.it/en/news/2021/03/15/clubhouse-podcasts-and-the-irresistible-rise-of-the-new-digital-orality.html\" target=\"_blank\">Clubhouse, podcasts and the irresistible rise of the new digital orality</a></p><p>DOMUS MAGAZINE</p><p>[IT/EN]</p>"
+        },
+        "id": "a049bf7d-0b8b-4cb2-af76-e756334771e6",
         "isHidden": false,
         "type": "slider"
     },
     {
         "content": {
-            "heading": "Press",
+            "heading": "PRESS",
             "copy": ""
         },
         "id": "2c439397-53e2-4c96-bc85-33472d1a6e05",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"http://atpdiary.com/get-rid-of-yourself-fondazione-baruchello/\" target=\"_blank\">ATP Diary</a></p><p>[IT]</p>"
+        },
+        "id": "83570b77-aa92-423f-af5d-76b57968a2bb",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "",
+            "copy": "<p><a href=\"http://atpdiary.com/teatrum-botanicum-2018/\" target=\"_blank\">ATP Diary, Teatrum Botanicum</a></p><p>[IT]</p>"
+        },
+        "id": "89554ca3-7fd5-4738-b802-bb90941369c0",
         "isHidden": false,
         "type": "slider"
     }
@@ -181,11 +233,11 @@ Sliderblocks:
 
 ----
 
-Sliderfiles: 
+Sliderfiles: - file://YxLU3pD7dwNZDTUN
 
 ----
 
-Description: 
+Description: ALMARE is an artists-curators collective focused on contemporary practices using sound as an expressive medium. ALMARE works in curating, writing, music, and podcasting, organises exhibitions, concerts, public talks, and performance programs.
 
 ----
 
@@ -193,7 +245,7 @@ Keywords:
 
 ----
 
-Ogimage: 
+Ogimage: - file://uZB5OWB01Gvm4IjY
 
 ----
 

@@ -98,6 +98,10 @@ button:hover {
     border-bottom: solid 1px #ffffff00;
 }
 
+strong {
+    font-weight: 600;
+}
+
 .--large-text {
     font-size: var(--f-size-large);
 }
@@ -129,7 +133,7 @@ button:hover {
 .logo {
     width: 45vw;
     position: fixed;
-    top: var(--f-size-small);
+    top: var(--m-p-large);
     right: var(--m-p-large);
     opacity: .8;
     pointer-events: none;
@@ -243,7 +247,7 @@ button:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .text-block {
@@ -275,7 +279,7 @@ button:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: .5rem;
+    gap: var(--m-p-small);
     padding: 0 var(--m-p-large);
 }
 

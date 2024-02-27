@@ -37,9 +37,17 @@ if (anchorTags) {
 };
 
 const agendaBlocks = document.querySelectorAll(".agenda-block");
-agendaBlocks.forEach(event => {
-    event.parentNode.parentNode.id = "agenda";
+agendaBlocks.forEach(el => {
+    el.parentNode.parentNode.id = "agenda";
 });
+
+const agenda = document.getElementById("agenda");
+const agendaBtn = document.querySelector(".agenda-btn");
+if (document.body.contains(agenda)) {
+    agendaBtn.style.display = "block";
+} else {
+    agendaBtn.remove();
+};
 
 const openContent = (button, content) => {
     button.addEventListener("click", () => {

@@ -1,6 +1,5 @@
-title: Card
+title: Gallery image
 focus: false
-preview: false
 accept: 
   extension: jpg, png, jpeg
   type: image

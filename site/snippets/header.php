@@ -30,6 +30,8 @@
         <meta name="twitter:image:alt" content="<?= $site->ogimage()->toFile()->alt() ?>">
     <?php endif ?>
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/assets/favicons/ALMARE-32px.png">
+    <link rel="shortcut icon" type="image/png" sizes="256x256" href="/assets/favicons/ALMARE-256px.png">
     <?= css ([
         'assets/css/base.css',
         'assets/css/style.css',
@@ -40,6 +42,7 @@
     <header class="header">
         <?= snippet('nav') ?>
     </header>
-    <!-- <div class="logo">
-      <h1><img src="assets/almare-logo-02.png" width="100%" alt="ALMARE logo"></h1>
-    </div> -->
+    <div class="logo">
+        <?php $logo = $site->logo()->toFile() ?>
+        <h1><img src="<?= $logo->url() ?>" width="100%" alt="ALMARE logo"></h1>
+    </div>

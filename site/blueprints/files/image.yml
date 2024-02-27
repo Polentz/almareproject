@@ -1,0 +1,5 @@
+title: Image
+focus: false
+accept: 
+  extension: jpg, png, jpeg
+  type: image
