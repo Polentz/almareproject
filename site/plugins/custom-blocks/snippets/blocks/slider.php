@@ -4,7 +4,9 @@
             <?= $block->heading() ?>
         </div>
     <?php endif ?>
-    <div class="slider-block-content">
-        <?= $block->copy()->kt() ?>
-    </div>
+    <?php if ($block->copy()->isNotEmpty()) : ?>
+        <div class="slider-block-content">
+            <?= $block->copy()->kt() ?>
+        </div>
+    <?php endif ?>
 </div>

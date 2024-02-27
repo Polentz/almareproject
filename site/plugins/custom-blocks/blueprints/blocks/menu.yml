@@ -1,8 +1,9 @@
 name: Menu block
-icon: false
+icon: menu
+max: 3
 fields:
   mixedDropdownMenu:
-    label: Dropdown Menu
+    label: Dropdown menu
     type: structure
     fields:
       linkTitle:

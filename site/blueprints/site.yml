@@ -4,68 +4,79 @@ tabs:
   page:
     label: Website pages
     icon: page
-    sections:
-      homepage:
-        label: Homepage
-        type: pages
-        image: false
-        template:
-          - home
-        sortable: false
-        max: 1
-      allpages:
-        label: Pages
-        type: pages
-        image: false
-        template:
-          - page
-        sortable: true
-      footer:
-        type: fields
-        fields:
+    columns:
+      main:
+        width: 2/3
+        sections:
+          homepage:
+            label: Homepage
+            type: pages
+            image: false
+            template:
+              - home
+            sortable: false
+            max: 1
+          allpages:
+            label: Pages
+            type: pages
+            image: false
+            template:
+              - page
+            sortable: true
+      sidebar:
+        width: 1/3
+        sections:
           footer:
-            width: 1/4
-            type: text
-            placeholder: Year
-            before: "©"
-            after: "ALMARE"
+            type: fields
+            fields:
+              footer:
+                type: text
+                placeholder: Year
+                before: "©"
+                after: "ALMARE"
   menu:
     label: Menu
     icon: menu
-    sections:
-      mainmenu:
-        type: fields
-        fields:
-          mixedMenu:
-            label: Main menu
-            type: structure
+    columns:
+      main:
+        width: 2/3
+        sections:
+          mainmenu:
+            type: fields
             fields:
-              linkTitle:
-                type: text
-                label: Label
-              link:
-                type: link
-                label: Link
-                options:
-                  - page
-                  - url  
-              color:
-                type: color
-                alpha: true 
-      dropdownmenu:
-        type: fields
-        fields:
-          blocks:
-            label: Dropdown Menu
-            type: blocks
-            pretty: true
-            fieldsets:
-              - menu    
-      globalFiles:
-        type: fields
-        fields:
-          files:
-            type: files    
+              mixedMenu:
+                label: Main menu
+                type: structure
+                fields:
+                  linkTitle:
+                    type: text
+                    label: Label
+                  link:
+                    type: link
+                    label: Link
+                    options:
+                      - page
+                      - url  
+                  color:
+                    type: color
+                    alpha: true 
+          dropdownmenu:
+            type: fields
+            fields:
+              blocks:
+                label: Dropdown Menu
+                type: blocks
+                pretty: true
+                fieldsets:
+                  - menu    
+      sidebar:
+        width: 1/3
+        sections:
+          globalFiles:
+            type: fields
+            fields:
+              files:
+                type: files    
   slider:
     label: Text and Press
     icon: grid-right
@@ -81,7 +92,6 @@ tabs:
                 type: blocks
                 pretty: true
                 fieldsets:
-                  - text
                   - slider                    
       sidebar:
         width: 1/3
@@ -104,7 +114,7 @@ tabs:
     icon: search
     columns:
       main:
-        width: 1/2
+        width: 2/3
         sections:
           seocontent:
             type: fields
@@ -117,7 +127,7 @@ tabs:
                 label: Keywords
                 type: tags         
       image:
-        width: 1/2
+        width: 1/3
         sections:
           image:
             type: fields

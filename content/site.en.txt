@@ -9,12 +9,16 @@ Footer: 2024
 Mixedmenu:
 
 - 
+  linktitle: About Almare
+  link: page://PDhpE0OBSSUTQnjH
+  color: '#ffffff'
+- 
   linktitle: Life Chronicles of Dorothea Ïesj S.P.U.
   link: page://DGjAuBMgsrtEsuEE
   color: '#4ed785'
 - 
   linktitle: The Listener
-  link: https://loremipsum.io/
+  link: https://www.thelisteners.it/
   color: '#ff572a'
 
 ----
@@ -26,21 +30,12 @@ Blocks:
         "content": {
             "mixeddropdownmenu": [
                 {
-                    "linktitle": "Portfolio",
-                    "link": "file://DQI9odKmeHS3OA8d"
-                }
-            ]
-        },
-        "id": "8d6a246f-ca15-4876-8ceb-a30de85192ba",
-        "isHidden": false,
-        "type": "menu"
-    },
-    {
-        "content": {
-            "mixeddropdownmenu": [
+                    "linktitle": "almare.project@gmail.com",
+                    "link": "mailto:almare.project@gmail.com"
+                },
                 {
                     "linktitle": "Facebook",
-                    "link": "https://loremipsum.io/",
+                    "link": "https://www.facebook.com/ALMAREproject/",
                     "linkobject": {
                         "linktext": "Facebook",
                         "link": "https://loremipsum.io/",
@@ -49,7 +44,7 @@ Blocks:
                 },
                 {
                     "linktitle": "Instagram",
-                    "link": "https://loremipsum.io/",
+                    "link": "https://www.instagram.com/almare.project/",
                     "linkobject": {
                         "linktext": "Instagram",
                         "link": "https://loremipsum.io/",
@@ -67,12 +62,12 @@ Blocks:
             "mixeddropdownmenu": [
                 {
                     "linktitle": "Newsletter",
-                    "link": "https://loremipsum.io/",
+                    "link": "http://eepurl.com/h5v_oz",
                     "linkobject": ""
                 },
                 {
                     "linktitle": "Portofolio",
-                    "link": "https://loremipsum.io/",
+                    "link": "file://DQI9odKmeHS3OA8d",
                     "linkobject": ""
                 }
             ]
@@ -104,7 +99,7 @@ Sliderblocks:
     {
         "content": {
             "heading": "",
-            "copy": "<p><a href=\"https://www.labellerevue.org/en/thematic-dossiers/universal-zombie-nation-lbr-11/entretien-almare\" target=\"_blank\">Auditory Necromancy</a></p><p>LA BELLE REVUE</p><p>[EN/FR]</p>"
+            "copy": "<p><a href=\"https://www.labellerevue.org/en/thematic-dossiers/universal-zombie-nation-lbr-11/entretien-almare\" target=\"_blank\">Auditory Necromancy</a></p><p>La Belle Revue</p><p>[EN/FR]</p>"
         },
         "id": "81fa7f2a-c8a8-4171-a5ed-56bb1c2f0c5e",
         "isHidden": false,
@@ -170,6 +165,15 @@ Sliderblocks:
             "copy": "<p><a href=\"https://www.almareproject.it/upload/SOUND%20QUESTS%20IT%20EN.pdf\" target=\"_blank\">SOUND QUESTS, Worlding/Otherworlding</a></p><p>PDF [IT/EN]</p>"
         },
         "id": "3fb146a8-22de-4ed6-a99d-71228acd7eb3",
+        "isHidden": false,
+        "type": "slider"
+    },
+    {
+        "content": {
+            "heading": "Press",
+            "copy": ""
+        },
+        "id": "2c439397-53e2-4c96-bc85-33472d1a6e05",
         "isHidden": false,
         "type": "slider"
     }

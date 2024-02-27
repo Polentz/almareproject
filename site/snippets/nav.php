@@ -1,3 +1,11 @@
+<?php
+    if ($kirby->language()->code() == 'en') {
+        $href = 'it';
+    } else if ($kirby->language()->code() == 'it') {
+        $href = 'en';
+    }
+?>
+
 <nav class="nav">
     <button class="menu-item menu-opener">Menu</button>
     <menu class="menu main-menu">
@@ -11,6 +19,9 @@
         </ul>
     </menu>
     <menu class="menu dropdown-menu">
+        <ul class="dropdown-menu-items">
+            <li class="menu-item lang-btn"><a href="<?= $page->url($href) ?>" hreflang="<?php echo $href ?>">EN/IT</a></li>
+        </ul>
         <?= $site->blocks()->toBlocks() ?>
         <ul class="dropdown-menu-items">
             <?php ($eventBlock = $page->blocks()->filterBy('type', 'event')) ?>

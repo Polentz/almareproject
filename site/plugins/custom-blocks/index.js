@@ -2,8 +2,26 @@ panel.plugin("almareproject/custom-blocks", {
   blocks: {
     menu: {
       template: `
-        <div class="menu-block">
-          <p>Column</p>
+        <div class="k-table menu-block">
+          <table>
+            <tbody>
+              <tr>
+                <td data-mobile="true" class="k-table-index-column">
+                  <div class="k-table-index">#</div>
+                </td>
+                <td data-mobile="true" class="k-table-cell k-table-column" style="width: auto;">
+                  <p class="k-text-field-preview">  Dropdown menu column: open to change the content  </p>
+                </td>
+                <td data-mobile="true" class="k-table-options-column">
+                  <div class="k-options-dropdown">
+                    <button data-has-icon="true" title="Options" type="button" aria-haspopup="menu" data-dropdown="true" class="k-button k-options-dropdown-toggle">
+                      <span class="k-button-icon"><svg aria-hidden="true" data-type="dots" class="k-icon"><use xlink:href="#icon-dots"></use></svg></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       `
     },

@@ -188,6 +188,7 @@ button:hover {
 
 .menu-item a:hover,
 .menu-item.--current a {
+    font-style: italic;
     color: var(--color);
 }
 
@@ -255,7 +256,6 @@ button:hover {
     flex-direction: column;
     gap: 2rem;
     line-height: 1.3;
-    text-transform: uppercase;
     padding: 0 var(--m-p-large);
 }
 
@@ -711,7 +711,6 @@ input.seek-slider::-moz-range-thumb {
 .slider-block-content {
     font-size: var(--f-size-small);
     line-height: 1.2;
-    text-transform: uppercase;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

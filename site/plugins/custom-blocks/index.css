@@ -16,3 +16,30 @@
 .block-text p {
     margin-top: 0;
 }
+
+.k-field-name-mixedmenu thead {
+    display: none;
+}
+
+.k-table-column:not([data-mobile="true"]) {
+    display: none;
+}
+
+.k-block-container-type-menu {
+    padding: 0;
+}
+
+.menu-block {
+    padding: 0 !important;
+}
+
+.menu-block p {
+    padding-inline: var(--table-cell-padding);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--table-color-th-text);
+}
+
+.k-writer-input[name="copy"] .k-text p {
+    margin-block-start: 0;
+}
