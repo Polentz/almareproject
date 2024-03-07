@@ -2,10 +2,14 @@ name: Text and Press
 icon: text
 fields:
   heading:
-    label: Heading
+    label: Category
     type: text
+  headingInfo:
+    label: false
+    type: info
+    text: E.g., Interviews, Texts, Press, etc. Leave it blank if not needed.
   copy:
-    label: Content
+    label: Item
     type: writer
     marks:
       - bold
@@ -15,3 +19,7 @@ fields:
       - email
       - clear
     nodes: false
+  copyInfo:
+    label: false
+    type: info
+    text: The Text and Press text block. Leave it blank if not needed.

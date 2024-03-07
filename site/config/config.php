@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'debug'  => true,
+    'debug'  => false,
     'languages' => true,
     'smartypants' => true,
-    'panel' => [
+    'panel' =>[
+        'install' => true,
         'css' => 'assets/css/panel.css'
-    ],
+      ]
 ];

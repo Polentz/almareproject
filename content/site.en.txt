@@ -2,11 +2,15 @@ Title: ALMARE
 
 ----
 
-Logo: - file://uZB5OWB01Gvm4IjY
+Media:
+
+- file://uZB5OWB01Gvm4IjY
+- file://STaFOfCiZ4FBT0yF
+- file://YxLU3pD7dwNZDTUN
 
 ----
 
-Footer: 2024
+Logo: - file://uZB5OWB01Gvm4IjY
 
 ----
 
@@ -84,10 +88,6 @@ Blocks:
         "type": "menu"
     }
 ]
-
-----
-
-Files: - file://STaFOfCiZ4FBT0yF
 
 ----
 
@@ -233,7 +233,7 @@ Sliderblocks:
 
 ----
 
-Sliderfiles: - file://YxLU3pD7dwNZDTUN
+Sliderlabel: Text and Press
 
 ----
 
@@ -246,6 +246,22 @@ Keywords:
 ----
 
 Ogimage: - file://uZB5OWB01Gvm4IjY
+
+----
+
+Slidermenulabel: 
+
+----
+
+Files: 
+
+----
+
+Sliderfiles: 
+
+----
+
+Footer: 2024
 
 ----
 
@@ -294,3 +310,7 @@ Mixeddropdownmenu:
   linktitle: null
   link: ""
   _id: aa9b4345-1456-4eca-8998-203d197c1855
+
+----
+
+Menulabel: Text and Press

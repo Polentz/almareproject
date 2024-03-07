@@ -27,7 +27,7 @@
         <?= $site->blocks()->toBlocks() ?>
         <ul class="dropdown-menu-items">
             <li class="menu-item agenda-btn"><a class="js-href" href="#agenda">Agenda</a></li>
-            <li class="menu-item slider-btn"><a>Text and Press</a></li>
+            <li class="menu-item slider-btn"><a><?= $site->sliderLabel() ?></a></li>
         </ul>
     </menu>
 </nav>
