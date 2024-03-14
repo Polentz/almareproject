@@ -31,6 +31,33 @@ fields:
       cover: true
     when:
       location: kirby
+  toggle:
+    type: toggle
+    label: Autoplay?
+    text: 
+      - "no"
+      - "yes"
+    when:
+      location: kirby
+  info: 
+    type: info
+    label: false
+    text: Switch to "no" if you want the video to be paused and the custom poster to be in use.
+  poster: 
+    type: files
+    label: Poster File
+    query: page.files.filterBy('template', 'image')
+    uploads: image
+    template: image   
+    multiple: false
+    link: false
+    image:
+      back: "#000"
+      icon: false
+      ratio: 16/9
+      cover: true
+    when:
+      location: kirby
   caption:
     label: field.blocks.video.caption
     type: writer
