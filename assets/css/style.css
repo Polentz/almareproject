@@ -358,6 +358,20 @@ strong {
     grid-column: 1 / 4;
 }
 
+.gallery-item a {
+    border-bottom: none;
+    -webkit-transition: -webkit-filter .35s ease-in-out;
+    transition: -webkit-filter .35s ease-in-out;
+    -o-transition: filter .35s ease-in-out;
+    transition: filter .35s ease-in-out;
+    transition: filter .35s ease-in-out, -webkit-filter .35s ease-in-out;
+}
+
+.gallery-item a:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
 .item-preview {
     height: -webkit-fit-content;
     height: -moz-fit-content;

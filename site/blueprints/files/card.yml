@@ -5,6 +5,8 @@ accept:
   type: image
 
 fields:
+  link:
+    type: url
   caption:
     type: writer
     marks:

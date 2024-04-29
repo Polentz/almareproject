@@ -2,10 +2,17 @@
   <ul class="gallery-grid">
     <?php foreach ($block->images()->toFiles() as $image): ?>
     <li class="gallery-item">
-        <div class="item-preview">
-            <?= $image ?>
-            <?= $image->caption() ?>
-        </div>
+        <?php if ($image->link()->isNotEmpty()) : ?>
+            <a href="<?= $image->link()->url() ?>" target="_blank" rel="noopener noreferrer" class="item-preview">
+                <?= $image ?>
+                <?= $image->caption() ?>
+            </a>
+        <?php else : ?>
+            <div class="item-preview">
+                <?= $image ?>
+                <?= $image->caption() ?>
+            </div>
+        <?php endif ?>
         <?php if ($image->text()->isNotEmpty()) : ?>
             <div class="item-content">
                 <div class="item-content-wrapper">
@@ -22,3 +29,4 @@
     <?php endforeach ?>
   </ul>
 </div>
+<a href="http://" target="_blank" rel="noopener noreferrer"></a>
