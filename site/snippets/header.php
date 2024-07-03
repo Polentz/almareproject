@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CEVSH81RBK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CEVSH81RBK');
+    </script>
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/ab4354239c52e1795edd9264/script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
